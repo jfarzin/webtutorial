@@ -1,5 +1,5 @@
 from pytest import *
-import NAME
+import webtutorial
 
 def setup():
     print("SETUP!")

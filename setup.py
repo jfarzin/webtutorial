@@ -4,16 +4,16 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project',
+    'description': 'django polling tutorial',
     'author':'Janine Farzin',
-    'url': 'URL to get it at.',
+    'url': 'https://docs.djangoproject.com/en/3.2/intro/install/',
     'download_url': 'Where to download it',
-    'author_email': 'jwaliszewski@gmail.com'
+    'author_email': 'jwaliszewski at gmail'
     'version': '0.1',
     'install_requires': ['pytest'],
-    'packages': ['NAME'],
+    'packages': ['webtutorial'],
     'scripts': [],
-    'name': 'projectname'
+    'name': 'Django web tutorial'
 }
 
 setup(**config)
