@@ -2,6 +2,7 @@ import datetime
 
 from django.db import models
 from django.utils import timezone
+from django.contrib import admin
 
 # Create your models here.
 
@@ -15,7 +16,7 @@ class Question(models.Model):
     @admin.display(
         boolean=True,
         ordering='pub_date',
-        description='Published recently?'
+        description='Published recently?',
     )
     def was_published_recently(self):
         now = timezone.now()
